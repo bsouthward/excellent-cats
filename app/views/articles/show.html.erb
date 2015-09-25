@@ -1,0 +1,21 @@
+<p>
+  <strong>Title:</strong>
+  <%= @article.title %>
+  <canvas id="phrase" width=700 height=350></canvas>
+  <%= javascript_include_tag "vex-example" %>
+</p>
+
+<p>
+  <strong>Text:</strong>
+  <%= @article.text %>
+</p>
+
+<h2>Comments</h2>
+<%= render @article.comments %>
+
+<h2>Add a comment:</h2>
+<%= render 'comments/form' %>
+
+<%= link_to 'Edit', edit_article_path(@article) %> | 
+<%= link_to 'Back', articles_path %>
+
