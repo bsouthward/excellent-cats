@@ -1,0 +1,13 @@
+a post consists of--
+	- a title
+	- a score [used to call this 'phrase']
+		- canvas element
+		- metadata: composer, title, year
+	- body text (commentary on the score)
+	- the date of the post
+
+
+TO DO:
+- better models of posts
+	- ability to sort by post author, music composer, music title, etc
+- prettier views, maybe using a popular library

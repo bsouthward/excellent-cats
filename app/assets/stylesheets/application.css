@@ -13,3 +13,35 @@
  *= require_tree .
  *= require_self
  */
+
+body {
+    background: #EEFFEE;
+    font-family: "Helvetica", "Arial", sans-serif;
+    padding: 10px;
+}
+
+div.post {
+    border: 1px solid #000000;
+    padding: 10px;
+    margin: 20px;
+}
+
+div.comment-box {
+    border: 1px solid #000000;
+    padding: 20px;
+    padding-top: 5px;
+    margin: 20px;
+    width: 300px;
+}
+
+div.comment-form {
+}
+
+div.comments {
+}
+
+canvas {
+    background-color: #FFFFCC;
+    border: 1px solid #000000;
+    border-radius: 25px;
+}

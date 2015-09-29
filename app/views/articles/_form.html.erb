@@ -13,6 +13,13 @@
 </div>
 <% end %>
 
+<%= f.label :score %><br>
+  <div class="vex-tabdiv"
+       width=400 scale=1.0 editor="false" editor_height=100>
+    <%= @article.score %>
+  </div>
+      <%= f.text_area :score %>
+
 <p>
   <%= f.label :title %><br>
   <%= f.text_field :title %>
