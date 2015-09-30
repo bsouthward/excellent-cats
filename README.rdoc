@@ -2,7 +2,7 @@
 
 VexBlog is a simple Rails-based blogging platform that allows composers and musicologists to embed traditoinal music notation (including tablature) into posts along with commentary. It is stil in alpha but should prove useful for students of classical music looking for a way to share their thoughts with the world.
 
-It uses Ruby on Rails with Foundation for UI and AuthLogic for user authentication.
+It uses Ruby on Rails 4.2.2 along with Foundation for UI and AuthLogic for user authentication.
 
 Current features include:
 
