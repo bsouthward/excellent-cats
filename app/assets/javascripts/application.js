@@ -12,6 +12,9 @@
 //
 //= require jquery
 //= require jquery_ujs
+//= require foundation
 //= require turbolinks
 //= require lib/vexflow-debug
 //= require lib/vextab-div
+
+$(function(){ $(document).foundation(); });

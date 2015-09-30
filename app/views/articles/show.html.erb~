@@ -1,9 +1,41 @@
-<p>
-  <strong>Title:</strong>
-  <%= @article.title %>
-</p>
+<!DOCTYPE html>
+<html>
+  <head>
+    <%= stylesheet_link_tag "application", media: "all" %>
+    <%= stylesheet_link_tag "vextab" %>
+    <%= javascript_include_tag "vextab-div" %>
+  </head>
+  
+  <body>
+  <div class="post">
+    <p> <strong>Score:</strong></p>
+  <!--  <canvas id="phrase" width=700 height=150></canvas>
+	<%= javascript_include_tag "vex-example" %> -->
+  <div class="vex-tabdiv"
+       width=700 scale=1.0 editor="false" editor_height=100>
+    <%= @article.score %>
+   </div>
+    <p>
+      <strong>Title:</strong>
+      <%= @article.title %>
+    </p>
+    <p>
+      <strong>Text:</strong>
+      <%= @article.text %>
+    </p>
+  </div>
 
-<p>
-  <strong>Text:</strong>
-  <%= @article.text %>
-</p>
+  <div class="comment-box">
+    <div class="comments">
+      <h2>Comments</h2>
+      <%= render @article.comments %>
+    </div>
+    <div class="comment-form">
+    <h2>Add a comment:</h2>
+    <%= render 'comments/form' %>
+    </div>
+    <%= link_to 'Edit', edit_article_path(@article) %> | 
+    <%= link_to 'Back', articles_path %>
+  </div>
+  </body>
+</html>
