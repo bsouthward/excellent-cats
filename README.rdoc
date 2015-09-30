@@ -1,15 +1,23 @@
 == README
 
-VexBlog is a simple blogging platform for embedding music notation (including tablature) along with commentary. It is stil under development but should prove useful for composers and students of classical music.
+VexBlog is a simple blogging platform for embedding music notation (including tablature) along with commentary. It is stil in alpha but should soon prove useful for composers and students of classical music.
 
 It uses Ruby on Rails with Foundation for UI and AuthLogic for user authentication.
 
-Features include:
+Current features include:
 
 * Displaying music notation on the HTML5 canvas element.
 
 * Creating, editing, and saving posts that include VexTab music markup.
 
-* Password-authenticated user accounts.
+* Textual comments, soon to include music markup as well.
 
-* Soon: updated UI using Foundation for bells and whistles.
+* Secure, password-authenticated user accounts.
+
+And soon to be added:
+
+* In-browser synthesizer for playback of notes.
+
+* Fancy modern UI bells and whistles.
+
+* Mobile support.
