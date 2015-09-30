@@ -1,28 +1,15 @@
 == README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+VexBlog is a simple blogging platform for embedding music notation (including tablature) along with commentary. It is stil under development but should prove useful for composers and students of classical music.
 
-Things you may want to cover:
+It uses Ruby on Rails with Foundation for UI and AuthLogic for user authentication.
 
-* Ruby version
+Features include:
 
-* System dependencies
+* Displaying music notation on the HTML5 canvas element.
 
-* Configuration
+* Creating, editing, and saving posts that include VexTab music markup.
 
-* Database creation
+* Password-authenticated user accounts.
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+* Soon: updated UI using Foundation for bells and whistles.
